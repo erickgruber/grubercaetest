@@ -164,7 +164,11 @@ header {
     position: fixed;
     top: 11%;
     width: 80px;
+<<<<<<< HEAD
     height: 50vh;
+=======
+    height: 80%;
+>>>>>>> eb76386a371a905c37dead363f57159874795d0d
 }
 
 .left-nav-ul {
@@ -305,6 +309,10 @@ hr {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+<<<<<<< HEAD
+=======
+    /* position: fixed; */
+>>>>>>> eb76386a371a905c37dead363f57159874795d0d
     background: var(--secondaryColor);
     top: 91%;
     right: 0;
