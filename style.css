@@ -164,7 +164,7 @@ header {
     position: fixed;
     top: 11%;
     width: 80px;
-    height: 80%;
+    height: 50vh;
 }
 
 .left-nav-ul {
@@ -305,7 +305,6 @@ hr {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* position: fixed; */
     background: var(--secondaryColor);
     top: 91%;
     right: 0;
@@ -535,6 +534,7 @@ input {
     }
     /* Footer  */
     .footer-container {
+        position: fixed;
         background-color: var(--secondaryColor);
         opacity: 1;
         transition: none;
