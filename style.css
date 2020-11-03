@@ -133,6 +133,9 @@ header {
 
 .default {
     color: var(--iconColor);
+    font-weight: 400;
+    font-size: .75rem;
+    letter-spacing: 2px;
 }
 
 .main-nav-ul li a,
@@ -274,7 +277,12 @@ header {
     border-radius: 5px;
     background: var(--boxContainer);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: 500ms;
+    transition: all .4s ease-in-out;
+}
+
+.box:hover {
+    color: var(--iconColor);
+    transform: scale(1.05);
 }
 
 .box p {
@@ -568,7 +576,7 @@ input {
         display: flex;
         opacity: 1;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 600;
         letter-spacing: 4px;
     }
     .main-nav a i {
@@ -703,6 +711,14 @@ input {
 /* Large screens ----------- */
 
 @media only screen and (min-width: 1440px) {
+    .main-nav a {
+        font-weight: 800;
+        font-size: .75rem;
+    }
+    .default {
+        font-weight: 800;
+        font-size: .75rem;
+    }
     .logo-container img {
         width: 180px;
         height: 80px;
