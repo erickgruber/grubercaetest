@@ -34,6 +34,7 @@
 
 body {
     background: var(--mainColor);
+    /* background: ; */
     font-family: 'Open Snas', sans-serif;
     font-weight: 400;
     scroll-behavior: smooth;
@@ -529,7 +530,6 @@ input {
         width: 210px;
         margin: 0;
         border-radius: 5px;
-        box-shadow: 1px 1px 1px rgba(0, 0, 0 .15);
     }
     /* Footer  */
     .footer-container {
@@ -587,7 +587,7 @@ input {
     }
     .profile-img img {
         width: 60px;
-        height: 6 0px;
+        height: 6 0;
         box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.6);
         border-radius: 100px;
         margin: auto 30px;
@@ -601,7 +601,7 @@ input {
         color: #fff;
         text-align: center;
         top: 75px;
-        right: 32 px;
+        right: 32px;
         padding: 2.5px 5px;
         border-radius: 50%;
         position: absolute;
@@ -667,7 +667,6 @@ input {
         width: 180px;
         margin: 0;
         border-radius: 5px;
-        box-shadow: 1px 1px 1px rgba(0, 0, 0 .15);
     }
     .box img {
         width: 60px;
